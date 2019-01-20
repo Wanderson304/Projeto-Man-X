@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: verdana;
+}
+
+/*Formatação da div principal*/
+.main{
+	width: 100%;
+	height: 100%;
+	background-image: url(../imagens/body-background.png);
+	background-repeat: no-repeat;  
+	min-height: 1000px;
+	margin: 0 auto;
+}
+
+.container{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+/*Formatação da div superior amarela*/
+.topbar{
+	width: 100%;
+	height: 4px;
+	background-color: #fcc508;
+}
+
+/*Formatação da div que contem os icones*/
+.social_icon{
+	width: 100%;
+	height: 40px;
+	background-color: #2a2b2c;
+	float: left;
+}
+
+/*Formatação dos icones*/
+.icon{
+	width: 150px;
+	height: 30px;
+	padding-top: 3px; /*Afasta os icones (rede social) da margin superior da dive social_icon*/
+	margin-left: 100px; /*Afasta os icones (rede social) da margin esquerda 100px*/
+	float: left;
+}
+
+/*Formatação da Div login_register_btn*/
+.login_register_btn{
+	width: 150px;
+	height: 33px;
+	float: left;
+}
+
+.header_right{
+	width: 300px;
+	height: auto;
+	float: right;
+}
+
+.login_register_btn a{
+	display: inline-block; /*Links aparecerão da esquerda para a direita*/
+	float: left;
+	color: white;
+	text-decoration: none;
+	line-height: 33px;
+	padding: 2px;
+	width: 48px; /*Aproxima a palavra register da barra */
+}
+
+/*Formatação da DIV (Amarela) botão carrinho*/
+.cart_btn{
+	width: 120px;
+	height: 50px;
+	background-color: #fcc508;
+	float: right;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+/*Formatação da imagem do carrinho*/
+.cart_btn img{
+	padding: 6PX;
+	float: left;
+}
+
+/*Formatação do span (Cart (0))*/
+.cart_btn span {
+	height: 50px;
+	line-height: 50px;
+	color: #cc3333;
+	font-size: 17px;
+	margin-left: 33px; /*Cenraliza o span(Cart (0)) dentro de DIV marela*/
+}
+
+.header{
+	width: 100%;
+	height: 100%;
+	float: left;
+	padding-top:  10px; /*Distancia da margem superior..*/
+	padding-bottom:  10px;
+}
+
+/*Formatação do logo*/
+.logo{
+	width: 200px;
+	height: auto;
+	float: left;
+	margin-left: -153px; /*Distancia da margem esquerda..*/
+	margin-top:  30px; /*Distancia da margem superior..*/
+}
+
+/*Formatação do nome Fashion
+Posicionando ele mais proximo do Mirror..*/
+#fs{
+	width: 100px;
+	margin-top: -16px;
+	color: #cc3333;
+}
+/*Formatação do menu de navegação..*/
+.navbar{
+	width: 950px;
+	float: left;
+	text-align: right;
+	padding-top:  10px; /*Distancia da margem superior..*/
+	padding-bottom:  20px;
+
+}
+/*Formatação dos links dentro do menu..*/
+.navbar a{
+	display: inline-block;
+	color: black;
+	padding: 0 10px;
+	text-decoration: none;
+	font-weight: bold; /*Deixa a fonte em ne3grito*/
+}
+
+/*Formatação do Slider..*/
+.slider {
+	width: 118%;
+	height: 300px;
+	float: left;
+}
+
+.slidshow{
+	width: 950px;
+	height: 300px;
+}
+
+.slidshow img{
+	width: 90%;
+	height: auto;
+}
+
+.welcome_text {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 300px;
+	margin-left: 110px; /*distância da margem esquerda...*/			
+}
+
+.welcome_text h2{
+	font-weight: normal;
+}
+
+.welcome_text h2 span{
+	background-color: #fcc60d;
+}
+
+.event_section{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-left: 88px; /*distância da margem esquerda...*/
+	margin-top: 25px;
+}
+
+.event_section .event_one,
+.event_section .event_two,
+.event_section .event_three {
+	width: 272px;
+	height: 100px;
+	padding: 8px 8px;
+	background-color: #1e1e20;
+	border-radius: 7px;
+	color: white;
+	float: left;
+}
+
+.event_section h3 {
+	font-size: 16px;
+	margin-bottom: 7px;
+}
+
+.event_section p {
+	font-size: 14px;
+}
+
+.event_section .event_two{
+	margin: 0 20px;
+	background-color: #fcc508;
+	color: #cd3737;
+}
+
+.event_section .three{
+	background-color: #1e1e20;
+}
+
+.event_section .event_two h3{
+	color: white;
+}
+
+.product {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 50px;
+	margin-left: 90px; /*distância da margem esquerda...*/
+}
+
+.product_section_title {
+	float: left;
+	width: 100%;
+	display: inline-block;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/*Formatação do produto one*/
+.product_one {
+	width: 280px;
+	height: auto;
+	border: 1px solid;
+}
+
+.product_img {
+	width: 280%;
+}
+
+.product_img img{
+	width: 100%;
+}
