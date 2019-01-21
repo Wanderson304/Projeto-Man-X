@@ -1,2 +1,3 @@
 # Projeto-Man-X
-Arquivo de telas iniciais de um E-commerce 
+Um projeto da tela inicial de um E-commerce.
+- Òtimo para comprineder o use de DIV e alinhamento.
